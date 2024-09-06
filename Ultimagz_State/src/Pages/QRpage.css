@@ -1,0 +1,15 @@
+.background {
+  background-image: url(../assets/QRpage/website_asset_bg.png);
+  height: 100vh;
+  background-size: cover;
+}
+
+.atas {
+    height: 60vh;
+    background-image: url(../assets/QRpage/campaign_front_asset_ground_atas.png);
+}
+
+.bawah {
+    height: 40vh;
+    background-image: url(../assets/QRpage/campaign_front_asset_ground_blkg.png);
+}
