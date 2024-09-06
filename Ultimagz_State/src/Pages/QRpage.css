@@ -1,5 +1,5 @@
 .background {
-  background-image: url(../assets/QRpage/website_asset_bg.png);
+  background-image: url(./QRpage/website_asset_bg.png);
   height: 100vh;
   background-size: cover;
 }
