@@ -23,7 +23,7 @@ function MainPage() {
   return (
     <div className="PembungkusMainPage">
       <div className="Judul">
-        <h1 className="pt-10 font-sans text-3xl min-[360px]:pt-16 min-[360px]:text-4xl font-bold text-center text-white md:text-6xl lg:text-5xl md:pt-10 lg:pt-4">
+        <h1 className="pt-6 font-sans text-3xl min-[360px]:pt-16 min-[360px]:text-4xl font-bold text-center text-white md:text-6xl lg:text-5xl md:pt-10 lg:pt-4">
           ULTIMAGZ
         </h1>
       </div>
@@ -70,7 +70,7 @@ function MainPage() {
             oleh peserta tidak boleh private.
             <br /> 3. Peserta wajib follow dan tag akun @ultimagz.
             <br /> 4. Peserta wajib mencantumkan caption, hashtag, dan tag pada
-            Twibbon yang tertera pada link di atas. UMA <br />
+            Twibbon yang tertera pada link di atas. <br />
             5.Setelah mengunggah Twibbon, peserta wajib melampirkan bukti dan
             mengisi Google Form melalui link berikut <br />
             <span className="font-bold">
