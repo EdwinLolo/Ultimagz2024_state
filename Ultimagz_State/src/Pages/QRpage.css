@@ -1,33 +1,17 @@
 .background {
   width: 100vw;
   height: 100vh;
-  position: relative;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
   background: url("../assets/QRpage/website_asset_bg.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
-@media screen and (min-width: 400px) {
-  .PembungkusMainPage {
-    height: 300vh;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .PembungkusMainPage {
-    height: 180vh;
-  }
-}
-
-@media screen and (min-width: 1000px) {
-  .PembungkusMainPage {
-    height: 160vh;
-  }
-}
-
 
 .awan{
-  width: 120%;
-  height: 100%;
+  width: 110vw;
+  height: 110%;
   position: absolute;
   top: -32%;
   bottom: 0;
@@ -36,20 +20,123 @@
   z-index: 0;
 }
 
-.qr{
-  width: 100%;
-  height: 0%;
-  position: absolute;
-  bottom: 150%;
+.qr {
+  width: 120%; 
+  max-width: 40em; 
+  height: auto; 
   z-index: 1;
-} 
+}
 
-.ground{
+.groundDepan {
   width: 100vw;
-  height: 100%;
+  height: auto;
   position: absolute;
   bottom: 0;
   left: 0;
+  right: 0;
+  display: flex;
+  z-index: 1;
+  object-fit: cover;
+}
+
+.groundBlkg {
+  width: 100vw;
+  height: auto;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
   display: flex;
   z-index: 0;
+  object-fit: cover;
 }
+
+.Tas {
+  width: 90vw;
+  height: auto;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  z-index: 1;
+}
+
+.Book {
+  width: 90vw;
+  height: auto;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  z-index: 1;
+}
+
+@media (max-width: 450px) {
+  .qr {
+    width: 20em;
+    margin-top: 20em;
+  }
+
+  .groundDepan {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .groundBlkg {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .Tas {
+    width: 100vw;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    z-index: 1;
+  }
+
+  .awan{
+    width: 28.5em;
+  }
+}
+
+@media (max-width: 395px) {
+  .qr {
+    width: 20em;
+    margin-top: 12em;
+  }
+
+  .groundDepan {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .groundBlkg {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .Tas {
+    width: 100vw;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    z-index: 1;
+  }
+
+  .awan{
+    width: 24.5em;
+  }
+}
+
+
+
+
+
