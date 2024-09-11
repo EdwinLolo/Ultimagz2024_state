@@ -1,35 +1,17 @@
 .PembungkusMainPage {
   width: 100vw;
-  height: 400vh;
+  height: 350vh;
   position: relative;
   background: url("../assets/MainPage/website_asset_bg.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 
-@media screen and (min-width: 400px) {
-  .PembungkusMainPage {
-    height: 300vh;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .PembungkusMainPage {
-    height: 180vh;
-  }
-}
-
-@media screen and (min-width: 1000px) {
-  .PembungkusMainPage {
-    height: 160vh;
-  }
-}
-
 .Judul {
   width: 100%;
   height: 100%;
   position: absolute;
-  z-index: 100;
+  /* z-index: 100; */
   top: 0;
   left: 0;
 }
@@ -58,11 +40,11 @@
 }
 
 .framing {
-  width: 100%;
-  height: 95%;
+  width: 110%;
+  height: fit-content;
   position: absolute;
   top: 0;
-  left: 0;
+  left: -5%;
   display: flex;
   z-index: 1;
   background: url("../assets/MainPage/campaignbackA4frame 50_.png");
@@ -83,7 +65,7 @@
   top: 0;
   left: 0;
   display: flex;
-  z-index: 1;
+  z-index: 0;
 }
 
 .awan img {
@@ -113,4 +95,53 @@
   left: 0;
   /* background-repeat: no-repeat; */
   /* object-fit: cover; */
+}
+
+@media screen and (min-width: 400px) {
+  .PembungkusMainPage {
+    height: 300vh;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .awan img {
+    height: 30%;
+    bottom: 5%;
+    left: 5%;
+  }
+
+  .frame2 img {
+    height: 350px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .PembungkusMainPage {
+    height: 200vh;
+  }
+
+  .framing {
+    width: 100%;
+    left: 0;
+  }
+
+  .frame2 img {
+    height: 850px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .PembungkusMainPage {
+    height: 190vh;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .PembungkusMainPage {
+    height: 1400px;
+  }
+
+  .frame2 img {
+    height: 850px;
+  }
 }

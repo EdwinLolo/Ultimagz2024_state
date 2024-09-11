@@ -22,7 +22,7 @@ import "./StyleMainPage.css";
 function MainPage() {
   return (
     <div className="PembungkusMainPage">
-      <div className="Judul">
+      <div className="z-10 Judul">
         <h1 className="pt-6 font-sans text-3xl min-[360px]:pt-16 min-[360px]:text-4xl font-bold text-center text-white md:text-6xl lg:text-5xl md:pt-10 lg:pt-4">
           ULTIMAGZ
         </h1>
@@ -30,16 +30,16 @@ function MainPage() {
       {/* <div className="bg_main">
         <img src={bgmain} alt="bgmain" />
       </div> */}
-      <div className="awan">
+      <div className="z-0 awan">
         <img src={cloud} alt="cloud" />
       </div>
       <div className="frame2">
         <img src={frame2} alt="frame" />
       </div>
 
-      <div className="flex flex-col font-sans pt-44 min-[360px]:pt-72 min-[400px]:pt-64 md:pt-40 min-[800px]:pt-48 min-[1000px]:pt-32 framing">
+      <div className="flex z-50 flex-col font-sans py-44 min-[360px]:py-72 min-[400px]:py-64 md:py-40 min-[800px]:py-48 min-[1000px]:py-48 framing">
         {/* <img src={frame} alt="frame" /> */}
-        <div className="break-words px-14 xl:px-52 lg:px-40 md:px-28 Wordingan">
+        <div className="break-words px-14 xl:px-72 lg:px-40 md:px-28 Wordingan">
           <h1 className="m-5 text-xl min-[360px]:text-2xl md:text-3xl font-bold text-center text-green-700 xl:text-5xl">
             REGISTRASI
           </h1>
@@ -58,14 +58,20 @@ function MainPage() {
             mengikuti keseluruhan rangkaian "Camping" ULTIMAGZ.
           </p>
         </div>
-        <div className="break-words px-14 xl:px-52 lg:px-40 md:px-28 Wordingan2 ">
+        <div className="break-words px-14 xl:px-72 lg:px-40 md:px-28 Wordingan2 ">
           <h1 className="m-5 text-xl min-[360px]:text-2xl md:text-3xl font-bold text-center text-green-700 xl:text-5xl">
             KETENTUAN TWIBBON & BOOTH CAMPING
           </h1>
           <p className="text-purple-900 text-sm min-[360px]:text-lg md:text-xl xl:text-lg xxl:text-xl">
             1. Peserta wajib mengunggah foto diri sendiri dengan Twibbon pada
             akun Instagram melalui link berikut{" "}
-            <span className="font-bold">https://twb.nz/campingultimagz</span>{" "}
+            <a
+              href="https://twb.nz/campingultimagz"
+              target="_blank"
+              className="z-50 font-bold"
+            >
+              https://twb.nz/campingultimagz
+            </a>{" "}
             <br /> 2. Akun Instagram baik pribadi maupun collage yang digunakan
             oleh peserta tidak boleh private.
             <br /> 3. Peserta wajib follow dan tag akun @ultimagz.
@@ -73,9 +79,14 @@ function MainPage() {
             Twibbon yang tertera pada link di atas. <br />
             5.Setelah mengunggah Twibbon, peserta wajib melampirkan bukti dan
             mengisi Google Form melalui link berikut <br />
-            <span className="font-bold">
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSfE_glin9UXIAOfJHAmSUYM8UdDKyfYCdHEXsiWPUVaUfWnGQ/viewform"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="z-50 font-bold"
+            >
               https://docs.google.com/forms/d/e/1FAIpQLSfE_glin9UXIAOfJHAmSUYM8UdDKyfYCdHEXsiWPUVaUfWnGQ/viewform
-            </span>
+            </a>
             <br />
             6. Dilarang menghapus Twibbon sampai poin SKKM diturunkan.
             <br />
